@@ -1,0 +1,430 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #FAFAFA;
+
+    display: flex;
+    justify-content: center;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.divisoria-vertical{
+    background-color: #e6e6e6;
+    width: 1px;
+    height: 22px;
+}
+
+.menu-celular{
+    display: none;
+}
+
+.barra-topo{
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;
+    width: 100%;
+
+    background-color: white;
+    
+    border-bottom: 1px solid;
+    border-bottom-color: #DBDBDB;
+
+    z-index: 1;
+}
+
+.topo{
+    height: 100%;
+    width: 935px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-logo{
+    display: flex;
+    align-items: center;
+}
+
+.topo-logo div{
+    margin-right: 10px;
+}
+
+.icone{
+    font-size: 19.25px;
+}
+
+.logo-instagram{
+    height: 29px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.barra-pesquisa{
+    background-color: #FAFAFA;
+    width: 215px;
+    height: 28px;
+
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+
+    border: 2px solid;
+    border-color: #DBDBDB;
+    border-radius: 3px;
+
+    color: #979797;
+}
+
+.icones-topo .icone{
+    margin-right: 10px;
+}
+
+.site{
+    margin-top: 88px;
+    width: 935px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-de-stories{
+    border: 1px solid;
+    border-color: #DBDBDB;
+    border-radius: 3px;
+    height: 118px;
+    width: 614px;
+    background-color:white;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.setinha-stories{
+    color: white;
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    box-shadow: inset 2px -2px 1px rgba(100, 100, 100, 0.2), -2px 2px 2px rgba(100, 100, 100, 0.2);
+
+    position: absolute;
+
+    right: 5px;
+}
+
+.stories{
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.stories p{
+    margin-top: 5px;
+}
+
+.borda-stories{
+    height: 66px;
+    border-radius: 100%;
+}
+
+.foto-stories{
+    height: 56px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+}
+
+.container-borda-stories{
+    position: relative;
+}
+
+.container-foto-stories{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.coluna-de-posts{
+    margin-top: 24px;
+    width: 614px;
+}
+
+.post{
+    height: 740px;
+    background-color: white;
+    margin-bottom: 60px;
+
+    border: 1px solid;
+    border-color: #DBDBDB;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.cabecalho-post{
+    padding-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto-nome{
+    margin-left: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.foto-nome img{
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.tres-pontos{
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.foto-post{
+    height: 614px;
+}
+
+video{
+    width: 614px;
+    height: 614px;
+}
+
+.menu-posts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-esquerda ion-icon{
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.icones-direita ion-icon{
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.curtidas-posts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.curtidas-posts img{
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.curtidas-posts p{
+    font-size: 14px;
+}
+
+.sidebar{
+    width: 293px;
+    height: 600px;
+
+    position: sticky;
+    top: 118px;
+}
+
+.imagem-perfil{
+    width: 56px;
+    background-color: #e6e6e6;
+    margin-right: 15px;
+    border-radius: 100%;
+}
+
+.perfil{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.cinza{
+    color: #979797;
+}
+
+.sugestoes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.barra-segue{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerdo-segue{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-segue{
+    width: 32px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.frases-segue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nome-pagina-segue{
+    font-size: 14px;
+}
+
+.segue-voce{
+    font-size: 12px;
+    color: #979797;
+}
+
+.direito-segue p{
+    font-size: 12px;
+    color: #139EF2;
+}
+
+.interacoes{
+    margin-top: 15px;
+
+    font-size: 11px;
+    color: #C7C7C7;
+}
+
+.ultima-barra-sidebar{
+    margin-top: 40px;
+}
+
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+
+    .barra-topo{
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .topo{
+        margin-left: 0;
+        width: 95%;
+    }
+
+    .site{
+        margin-left: 0;
+        width: 100%;
+
+        justify-content: center;
+    }
+}
+
+@media (max-width: 614px){
+    .sumir-600{
+        display: none;
+    }
+    
+    .topo-logo{
+        width: calc(50% + (103px/2));
+
+        justify-content: space-between;
+    }
+
+    .principal{
+        width: 100%;
+    }
+
+    .caixa-de-stories{
+        background-color: inherit;
+        border: none;
+
+        width: 100%;
+    }
+
+    .coluna-de-posts{
+        width: 100%;
+    }
+
+    .post{
+        height: 100%;
+
+        border-right: none;
+        border-left: none;
+    }
+
+    .foto-post{
+        width: 100%;
+        height: 100%;
+    }
+
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-celular{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0%;
+        
+        height: 54px;
+        width: 100%;
+
+        border-top: 1px solid #DBDBDB;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
+        background-color: white;
+    }
+
+    .icone-celular{
+        font-size: 18px;
+    }
+
+    .inicio{
+        margin-left: 15px;
+    }
+
+    .final{
+        margin-right: 15px;
+    }
+}
