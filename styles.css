@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body{
@@ -167,6 +167,7 @@ strong{
 }
 
 .post{
+    width: 100%;
     height: 740px;
     background-color: white;
     margin-bottom: 60px;
@@ -208,11 +209,11 @@ strong{
 }
 
 .foto-post{
-    height: 614px;
+    width: 100%;
 }
 
 video{
-    width: 614px;
+    width: 100%;
     height: 614px;
 }
 
@@ -389,11 +390,6 @@ video{
     }
 
     .foto-post{
-        width: 100%;
-        height: 100%;
-    }
-
-    .video{
         width: 100%;
         height: 100%;
     }
