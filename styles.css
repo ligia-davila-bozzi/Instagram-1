@@ -127,8 +127,7 @@ strong{
 }
 
 .stories{
-    margin-left: 15px;
-
+    margin-left: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,6 +136,11 @@ strong{
 }
 
 .stories p{
+    width: 78px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+
     margin-top: 5px;
 }
 
